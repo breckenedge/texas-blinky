@@ -17,6 +17,12 @@ A relaxation oscillator built around a CR2032 coin cell. R1 slowly charges C1 th
 | R1 | 100kΩ | Timing / base charge resistor | Axial, DIN0207, 7.62mm pitch |
 | R2 | 100Ω | LED current-limiting resistor | Axial, DIN0207, 7.62mm pitch |
 
+## Fabrication
+
+Gerber files are not stored in the repository. Each fab-ready revision is published as a [GitHub Release](https://github.com/breckenedge/texas-blinky/releases) with a zipped Gerber package attached.
+
+To generate Gerbers in KiCad: **PCB Editor → File → Fabrication Outputs → Gerbers**
+
 ## Files
 
 | File | Description |
