@@ -1,0 +1,27 @@
+# KiCad autosave and temp files
+_autosave-*
+*.lck
+
+# KiCad backup directory (created automatically)
+*-backups/
+
+# Footprint cache (auto-regenerated)
+fp-info-cache
+
+# Exported outputs (re-generate from KiCad as needed)
+*.net
+*.dsn
+*.ses
+*.gbr
+*.drl
+*.csv
+*.pos
+*.rpt
+*.xml
+*.step
+*.wrl
+gerbers/
+fab/
+
+# macOS
+.DS_Store
